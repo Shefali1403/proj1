@@ -1,6 +1,6 @@
 import React from 'react'
-import List from './FAQ/List';
-import Listcard from './FAQ/Listcard';
+import List from '../FAQ/List';
+import Listcard from '../FAQ/Listcard';
 const Footer=()=>{
 return(
     <>

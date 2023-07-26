@@ -1,16 +1,39 @@
 import React from 'react';
-import Header from './Component/Header';
-import Main from './Component/Main';
-import Footer from './Component/Footer';
+import HomePage from './routes/HomePage';
+import ShopPage from './routes/ShopPage';
+import BlogPage from './routes/BlogPage';
+import ContactPage from './routes/ContactPage';
+
+import { Routes, Route } from 'react-router-dom';
+
+import Bestseller from './Component/Bestsel/Bestseller';
+import Newarr from './Component/Newarrival/Newarr';
+import Mostpop from './Component/Mostpopular/Mostpop';
+
+import { useNavigate, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
 const App=()=>{
-    return(
-        <>
-      <div className="container">
-        <Header/>
-        <Main/>
-        <Footer/>
-      </div>
-        </>
-    );
+  const {pathname} = useLocation();
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (pathname === '/'){
+      navigate('/home')
+    }
+  }, [navigate])
+  return(
+    <div className="container">
+      <Routes>
+        <Route path = '/home' element = {<HomePage />}>
+          <Route path = 'bestsell' element = {<Bestseller />}/>
+          <Route path = 'newarrival' element = {<Newarr />} />
+          <Route path = 'mostpop' element = {<Mostpop />} />
+        </Route>
+        <Route path = '/shop' element = {<ShopPage />} />
+        <Route path = '/blog' element = {<BlogPage />} />
+        <Route path = '/contact' element = {<ContactPage />} />
+      </Routes>
+    </div>
+  );
 };
 export default App;

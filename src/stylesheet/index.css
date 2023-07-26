@@ -3,9 +3,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
-li:a.active_class{
+li a{
+  text-decoration: none;
+}
+li a.active_class{
   color:black;
-  border:2px solid green;
 }
 .check{
   display: flex;
@@ -14,16 +16,13 @@ li:a.active_class{
   border:2px solid black;
   width:30vw;
   height:30vh;
-
 }
 .container{
   width:100vw;
   height:100vh;
   position: relative;
   display: grid;
-   grid-template-rows: repeat(3,auto);  
-  /* border:5px solid blue;  */
-  /* filter: blur(5px);  */
+  grid-template-rows: repeat(3,auto);  
 }
 #navbar{
   display: grid;
