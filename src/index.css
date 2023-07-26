@@ -1,0 +1,433 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+li:a.active_class{
+  color:black;
+  border:2px solid green;
+}
+.check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black;
+  width:30vw;
+  height:30vh;
+
+}
+.container{
+  width:100vw;
+  height:100vh;
+  position: relative;
+  display: grid;
+   grid-template-rows: repeat(3,auto);  
+  /* border:5px solid blue;  */
+  /* filter: blur(5px);  */
+}
+#navbar{
+  display: grid;
+  grid-template-columns: 8% 37% 39% auto;
+  width:100vw;
+  height:10vh;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+}
+
+#navbar .logo h1{
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+#navbar .nav .menu{
+  display: flex;
+  justify-content: flex-start;
+}
+#navbar .menu li{
+  list-style: none;
+  list-style: none;
+  margin: 1.2rem 1rem;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+#navbar .menu li a.active_class{
+  cursor: pointer;
+}
+#navbar .search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue;  */
+}
+#navbar .search input{
+  width: 18vw;
+  height: 5vh;
+  
+}
+#navbar .icons{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  /* background-color: gray;  */
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  cursor: pointer;
+}
+.cont{
+   display: flex; 
+  width:100vw;
+  height:100vh;
+   border:2px solid green; 
+}
+.cont::before{
+  content:"";
+  position:absolute;
+  top:0px;
+  left:0px;
+  background: url('https://about.hm.com/content/dam/hmabout/groupsite/images/article/2020/september/1042_1952x1206.jpg/_jcr_content/renditions/cq5dam.web.976.603.jpeg') no-repeat center;
+  background-size: 100vw 100vh;
+  width:100vw;
+  height:100vh;
+  z-index: -1;
+}
+
+#mainhead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:52vw;
+  height:72vh;
+  margin-right: 1rem;
+  /* background-color: rgb(199, 197, 197);     */
+  /* border:2px solid black;  */
+}
+#mainhead p{
+margin-right: 23rem;
+color: red;
+}
+#mainhead h1{
+font-size: 3.2rem;
+margin-right: 12rem;
+}
+#mainhead .list{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.7rem;
+  margin-right: 22rem;
+}
+#mainhead .list li{
+  list-style: none;
+  margin: 0.4rem 0rem;
+}
+#main{
+  display:grid;
+  grid-template-rows: 1fr 5fr;
+  align-items: center;
+  /* border: 2px solid black;  */
+  width:100vw;
+  height:100vh;
+  margin-top:1.8rem;
+}
+#main .navig{
+  width:100vw;
+  height:17vh;
+  background-color: white;
+}
+#main .navig ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+#main .navig ul li{
+  list-style: none;
+  margin: 0.8rem 1rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+
+}
+#main .categ{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: repeat(2,auto);
+  /* column-gap: 0rem;  */
+  /* margin-top: 1.9rem; */
+  row-gap: 1rem;
+  height:107vh;
+  /* border:2px solid blue;    */
+  background-color: white;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  /* border:2px solid black;  */
+  border-radius: 4px;
+  width:15vw;
+  height:43vh;
+  margin-left: 2rem;
+  margin-top: 1.9rem;
+}
+.card .image img{
+  width:14.7vw;
+  background:inherit;
+}
+.card:hover{
+  cursor: pointer;
+  transition: width 0.6s ease-in-out;
+  transform: scale(1.1);
+}
+.card .content{
+  height:42vh;
+   background-color: white;  
+}
+.card .content h4{
+ font-size: 1.2rem;
+}
+.card .content p{
+   margin-top: 0.4rem; 
+}
+.card .first img{
+  height:32vh;
+}
+.card .second img{
+  height:32vh;
+}
+.card .three img{
+  height:32vh;
+}
+.card .four img{
+  height:32vh;
+
+}
+.card .five img{
+  height:32vh;
+}
+.card .six img{
+  height:32vh;
+}
+.card .seven img{
+  height:32vh;
+}
+.card .eight img{
+  height:32vh;
+}
+.footmain{
+  display: grid;
+  grid-template-rows: 1fr 4fr auto;
+  /* border: 2px solid black;  */
+  width:100vw;
+  height:100vh;
+  margin-top: 8.9rem;
+}
+.footmain .heading{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  /* background-color: blue;  */
+  height:20vh;
+}
+.footmain .content{
+  display: flex;
+  /* background-color: red;  */
+  height:76vh;
+}
+.footmain .content .contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:20vw;
+  height:40vh;
+   align-items: center;  
+  /* border:2px solid black;  */
+  margin-top: 4rem;
+}
+
+.footmain .content .contain .menu{
+margin-top: 1rem;
+}
+.footmain .content .contain .menu li{
+  list-style: none;
+  margin :1rem;
+  margin-right: 5rem;
+  color: grey;
+}
+.footmain .content .sec h3{
+  margin-right: 1.4rem;
+}
+.footmain .content .third h3{
+  margin-right: 1rem;
+}
+.footmain .content .extra {
+  margin-top: 1rem;
+}
+.footmain .content .extra .menu li{
+  margin-left: 3rem;
+}
+.footmain .copy{
+  width:100vw;
+  height:3.5vh;
+  background-color: black;
+}
+.footmain .copy p{
+  text-align: center;
+  color: white;
+}
+.newarr{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  /* border:2px solid black;  */
+  width:100vw;
+  height: 100vh;
+  column-gap: 1rem;
+}
+.newarr .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border:2px solid blue;  */
+  height: 72vh;
+    margin-top: 6rem;
+}
+.newarr .box button{
+  margin-top: 2rem;
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  padding: 0.6rem 2rem;
+}
+.newarr .box button:hover{
+  transition: width 1s ease-in-out;
+  transform: scale(1.2);
+}
+.newarr .first::before{
+  content: "";
+  position: absolute;
+  background: url('https://imgmedia.lbb.in/media/2019/04/5ca789e1f229057e014b3b65_1554483681310.jpg') no-repeat center;
+  width:32vw;
+  height:72vh;
+  z-index: -1;
+  background-size: 34vw 72vh;
+  /* opacity: 0.9;  */
+  filter: brightness(0.7);
+}
+.newarr .second::before{
+  content: "";
+  position: absolute;
+  background: url('https://lp2.hm.com/hmgoepprod?set=source[/83/5b/835bebd0057a62c672a80776863db680ce661e0d.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]') no-repeat center;
+  width:32vw;
+  height:72vh;
+  background-size: 34vw 72vh;
+  z-index: -1;
+  /* opacity: 0.9;  */
+  filter: brightness(0.7);
+}
+.newarr .third::before{
+  content: "";
+  position: absolute;
+  background: url('https://media1.popsugar-assets.com/files/thumbor/11XuPgW892VZsDEO-4xILON66eA=/fit-in/768x1152/filters:format_auto():extract_cover():upscale()/2019/04/17/661/n/24155406/4c9685b92a0a3213_netimgJUWiVE.jpg') no-repeat center;
+  width:32vw;
+  height:72vh;
+  background-size: 34vw 72vh;
+  z-index: -1;
+  /* opacity: 0.9;  */
+  filter: brightness(0.7);
+}
+.mostpop{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width:100vw;
+  height:100vh;
+}
+.mostpop .box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+    align-items: flex-start;
+  color: white;
+}
+.mostpop .box1 p{
+  font-size: 0.7rem;
+  margin-bottom: 1.7rem;
+  margin-left: 1rem;
+
+}
+.mostpop .box1 h4{
+margin-bottom: 5rem;
+margin-left: 1rem;
+}
+
+.mostpop .box1:before{
+  content: "";
+  position: absolute;
+  background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb5%2F13%2Fb513d3e56422ab914594fb2b56543b655394727e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]') no-repeat center;
+  width:50vw;
+  height:100vh;
+  z-index: -1;
+  background-size: 55vw 100vh;
+  filter: brightness(0.6);
+}
+.mostpop .box2{
+  display: grid;
+  grid-template-columns: repeat(2, auto);  
+  position: relative;
+ 
+}
+.mostpop .box2 .mostpopcomp{
+  width:25vw;
+  height:50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mostpop .box2 .mostpopcomp p{
+font-size: 0.9rem;
+}
+.mostpop .box2 .mostpopcomp h3{
+font-size: 1.2rem;
+}
+.mostpop .box2 .first::before{
+  content: "";
+  position: absolute;
+  background-color: white;
+  width:25vw;
+  background-size: 25vw 50vh;
+  height:50vh;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+.mostpop .box2 .sec::before{
+  content: "";
+  position: absolute;
+  background: url('https://i.pinimg.com/736x/8c/8f/4d/8c8f4d6031f8d416f6a22abad3a69ca4.jpg') no-repeat center;
+  width:35vw;
+  background-size: 25vw 50vh;
+  height:100vh;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+.mostpop .box2 .third::before{
+  content: "";
+  position: absolute;
+  background: url('https://imagescdn.planetfashion.in/img/app/product/8/814475-9720756.jpg?auto=format&w=494.40000000000003') no-repeat center;
+  width:35vw;
+  background-size: 25vw 50vh;
+  height:100vh;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+.mostpop .box2 .four::before{
+  content: "";
+  position: absolute;
+  background: url('https://www.jiomart.com/images/product/original/rv54rem9qj/zaaliqa-latest-design-women-sling-bag-cross-body-bag-product-images-rv54rem9qj-0-202209271637.jpg?im=Resize=(500,630)') no-repeat center;
+  width:35vw;
+  background-size: 25vw 50vh;
+  height:100vh;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+
+
