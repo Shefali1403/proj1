@@ -1,94 +1,392 @@
 @media screen and (max-width: 900px) and (min-width: 630px) {
-    #navbar{
-        height: 12vh;
-    }
+  #navbar {
+    height: 11vh;
+    grid-template-columns: 8% 37% 33% auto;
+  }
   #navbar .search input {
     width: 13vw;
     height: 5vh;
     margin-left: 9rem;
+  }
+  #navbar .logo h1 {
+    margin-top: 3.2rem;
+    font-size: 1rem;
+  }
+  #navbar .menu li {
+    margin: 3.2rem 1rem;
   }
   #mainhead {
     width: 78vw;
     height: 93vh;
   }
 }
-@media screen and (min-width: 520px) and (max-width: 630px) {
-  #navbar{
-    height: 12vh;
+@media screen and (min-width: 570px) and (max-width: 630px) {
+  .container {
+    width: 107vw;
+  }
+  #navbar {
+    grid-template-columns: 8% 37% 28% auto;
+    width: 107vw;
   }
   #navbar .logo h1 {
-    margin-top: 1.3rem;
+    margin-top: 3rem;
     font-size: 1rem;
-}
-#navbar .menu li{
-    margin: 1.2rem 0rem;
-}
-#mainhead{
-    width: 80vw;
-    height: 114vh;
-}
-}
-@media screen and (min-width: 300px) and (max-width: 520px) {
-  .container {
-    width: 111vw;
-    /* background-color: pink;  */
+  }
+  #navbar .menu li {
+    margin: 3rem 0rem;
+  }
+  #navbar .search input {
+    margin-left: 5rem;
+  }
+  #navbar .icons {
+    column-gap: 0.5rem;
   }
   .cont {
-    width: 120vw;
+    width: 107vw;
   }
-  .part {
-    width: 120vw;
+  .cont::before {
+    width: 107vw;
+    background-size: 107vw 100vh;
+  }
+  #main {
+    width: 107vw;
+  }
+  .footmain {
+    width: 107vw;
+  }
+  .footmain .copy {
+    width: 107vw;
+  }
+  #mainhead {
+    width: 80vw;
+    height: 94vh;
+  }
+  .contain h3 {
+    font-size: 1rem;
+  }
+  .footmain .content {
+    margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 521px) and (max-width: 570px) {
+  .container {
+    width: 112vw;
+  }
+  #navbar {
+    width: 112vw;
+  }
+  #navbar .logo h1 {
+    font-size: 0.9rem;
+    margin-top: 2.4rem;
+  }
+  #navbar .menu li {
+    margin: 2.3rem 0rem;
+    padding: 1rem 0.7rem;
+  }
+  #navbar .search input {
+    margin-left: 5rem;
+  }
+  #navbar .icons {
+    column-gap: 0.5rem;
+  }
+  .cont {
+    width: 112vw;
+  }
+  .cont::before {
+    width: 112vw;
+    background-size: 112vw 100vh;
+  }
+  #mainhead {
+    width: 112vw;
+  }
+  #main {
+    width: 112vw;
+  }
+  .footmain {
+    width: 112vw;
+  }
+  .footmain .copy {
+    width: 112vw;
+  }
+  .contain h3 {
+    font-size: 0.9rem;
+  }
+  .footmain .content {
+    margin-left: 2.3rem;
+  }
+}
+@media screen and (min-width: 455px) and (max-width: 520px) {
+  .container {
+    width: 115vw;
+  }
+  #navbar {
+    display: grid;
+    grid-template-columns: 8% 37% 25% auto;
+    width: 115vw;
+  }
+  #navbar .logo h1 {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  #navbar .menu li {
+    margin: 2rem 0rem;
+  }
+  #navbar .search input {
+    margin-left: 5rem;
+  }
+  #navbar .icons {
+    column-gap: 0.5rem;
+  }
+  .cont {
+    width: 115vw;
+  }
+  .cont::before {
+    width: 115vw;
+    background-size: 115vw 100vh;
+  }
+  #mainhead {
+    width: 115vw;
     height: 100vh;
   }
-  .part #navbar {
-    width: 120vw;
+  #main {
+    width: 115vw;
   }
-  #navbar .nav .menu {
-    margin-left: 1rem;
-    margin-top: 1rem;
+  .footmain {
+    width: 115vw;
+  }
+  .footmain .copy {
+    width: 115vw;
+  }
+  .contain h3 {
+    font-size: 0.9rem;
+  }
+  .footmain .content {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 454px) {
+  .container {
+    width: 115vw;
+  }
+  #navbar {
+    grid-template-columns: 8% 37% 33% auto;
+    width: 115vw;
+  }
+  #navbar .logo h1 {
+    font-size: 0.9rem;
+    margin-top: 2.4rem;
+  }
+  #navbar .menu li {
+    margin: 2.3rem 0rem;
+    padding: 1rem 0.7rem;
+  }
+  #navbar .search input {
+    margin-left: 5rem;
+  }
+  #navbar .icons {
+    column-gap: 0.5rem;
+  }
+  .cont {
+    width: 115vw;
+  }
+  .cont::before {
+    width: 115vw;
+    background-size: 115vw 100vh;
+  }
+  #mainhead {
+    width: 115vw;
+    height: 100vh;
+  }
+  #main {
+    width: 115vw;
+  }
+  .footmain {
+    width: 115vw;
+  }
+  .footmain .copy {
+    width: 115vw;
+  }
+  .contain h3 {
+    font-size: 0.9rem;
+  }
+  .footmain .content {
+    margin-left: 2.3rem;
+  }
+}
+@media screen and (min-width: 399px) and (max-width: 429px) {
+  .container {
+    width: 118vw;
+  }
+  #navbar {
+    width: 118vw;
+    grid-template-columns: 8% 37% 30% auto;
   }
   #navbar .logo h1 {
     margin-top: 2.4rem;
     font-size: 1rem;
   }
   #navbar .menu li {
-    margin: 1.2rem 0rem;
-    padding: 0.3rem 0.6rem;
-    font-size: 0.9rem;
+    margin: 2.4rem 0rem;
+    padding: 0.3rem 0.5rem;
   }
   #navbar .search input {
-    width: 14vw;
-    height: 4vh;
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
-  #main {
-    width: 120vw;
+  #navbar .icons {
+    column-gap: 0.5rem;
   }
-  .card .content h4 {
-    font-size: 0.8rem;
-  }
-  #mainhead {
-    margin-left: 3rem;
-    width: 140vw;
-    height: 83vh;
+  .cont {
+    width: 118vw;
   }
   .cont::before {
-    background-size: 149vw 80vh;
-    width: 120vw;
+    width: 118vw;
+    background-size: 118vw 100vh;
+  }
+  #mainhead {
+    width: 118vw;
+    height: 100vh;
+  }
+  #main {
+    width: 109vw;
   }
   .footmain {
-    width: 120vw;
-  }
-  .footmain .content .contain h3 {
-    font-size: 0.7rem;
-  }
-  .footmain .content .contain .menu li {
-    font-size: 0.7rem;
-  }
-  .footmain .content {
-    margin-left: 2rem;
+    width: 118vw;
   }
   .footmain .copy {
-    width: 120vw;
+    width: 118vw;
+  }
+  .contain h3 {
+    font-size: 0.9rem;
+  }
+  .footmain .content {
+    margin-left: 2.3rem;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 398px) {
+  .container {
+    width: 125vw;
+  }
+  #navbar {
+    width: 125vw;
+    grid-template-columns: 8% 37% 30% auto;
+  }
+  #navbar .logo h1 {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  #navbar .menu li {
+    margin: 2rem 0rem;
+    padding: 0.3rem 0.7rem;
+  }
+  #navbar .search input {
+    margin-left: 5rem;
+  }
+  #navbar .icons {
+    column-gap: 0.5rem;
+  }
+  .cont {
+    width: 125vw;
+  }
+  .cont::before {
+    width: 125vw;
+    background-size: 125vw 100vh;
+  }
+  #mainhead {
+    width: 125vw;
+    height: 100vh;
+  }
+  #mainhead p {
+    margin-right: 17rem;
+  }
+  #main .navig ul {
+    margin-left: 7rem;
+  }
+  #mainhead h1 {
+    font-size: 2rem;
+  }
+  #mainhead .list {
+    margin-right: 16rem;
+  }
+  #main {
+    width: 125vw;
+  }
+  .footmain {
+    width: 125vw;
+  }
+  .footmain .copy {
+    width: 125vw;
+  }
+  .contain h3 {
+    font-size: 0.7rem;
+    margin-right: 3rem;
+  }
+  .footmain .content {
+    margin-left: 4rem;
+  }
+  .footmain .content .contain .menu li {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 359px) {
+  .container {
+    width: 130vw;
+  }
+  #navbar {
+    width: 130vw;
+    grid-template-columns: 8% 37% 30% auto;
+  }
+  #navbar .logo h1 {
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+  #navbar .menu li {
+    margin: 3rem 0rem;
+    padding: 0.3rem 0.5rem;
+  }
+  #navbar .search input {
+    margin-left: 5rem;
+  }
+  #navbar .icons {
+    column-gap: 0.5rem;
+  }
+  .cont {
+    width: 124vw;
+  }
+  .cont::before {
+    width: 130vw;
+    background-size: 130vw 100vh;
+  }
+  #mainhead {
+    width: 130vw;
+    height: 100vh;
+  }
+  #mainhead p {
+    margin-right: 17rem;
+  }
+  #mainhead h1 {
+    font-size: 2rem;
+  }
+  #mainhead .list {
+    margin-right: 16rem;
+  }
+  #main {
+    width: 130vw;
+  }
+  .footmain {
+    width: 130vw;
+  }
+  .footmain .copy {
+    width: 130vw;
+  }
+  .contain h3 {
+    font-size: 0.7rem;
+    margin-right: 3rem;
+  }
+  .footmain .content {
+    margin-left: 4rem;
+  }
+  .footmain .content .contain .menu li {
+    font-size: 0.6rem;
   }
 }

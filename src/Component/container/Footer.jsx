@@ -20,7 +20,7 @@ return(
                            four={val.four}/>
 
                 );
-            })};
+            })}
        
         </div>
         <div className="copy">

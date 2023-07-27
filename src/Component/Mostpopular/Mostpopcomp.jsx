@@ -1,12 +1,12 @@
-import React from 'react'
-const Mostpopcomp=(props)=>{
-return(
+import React from "react";
+const Mostpopcomp = (props) => {
+  return (
     <>
-    <div className={props.className}>
+      <div className={props.className}>
         <p>{props.content}</p>
         <h3>{props.title}</h3>
-    </div>
+      </div>
     </>
-)
-}
+  );
+};
 export default Mostpopcomp;

@@ -1,11 +1,11 @@
-import React from 'react'
-const Box1comp=(props)=>{
-return(
+import React from "react";
+const Box1comp = (props) => {
+  return (
     <>
-    <div className={props.className}>
+      <div className={props.className}>
         <h3>{props.title}</h3>
-    </div>
+      </div>
     </>
-)
-}
+  );
+};
 export default Box1comp;

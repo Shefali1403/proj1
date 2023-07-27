@@ -1,10 +1,12 @@
-import Footer from "../Component/container/Footer"
-import Header3 from "../Component/container/Header3"
+import Footer from "../Component/container/Footer";
+import Header3 from "../Component/container/Header3";
 function BlogPage() {
-  return (<>
-    <Header3/>
-    <Footer />
-  </>)
+  return (
+    <>
+      <Header3 />
+      <Footer />
+    </>
+  );
 }
 
-export default BlogPage
+export default BlogPage;
