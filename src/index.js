@@ -5,7 +5,7 @@ import './stylesheet/index.css';
 import './stylesheet/response.css';
 import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
-    <BrowserRouter basename="/proj1">
+    <BrowserRouter>
         <App/>                
     </BrowserRouter>
 , document.getElementById('root'));
