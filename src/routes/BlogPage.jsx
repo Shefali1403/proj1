@@ -1,8 +1,8 @@
 import Footer from "../Component/container/Footer"
-import Header from "../Component/container/Header"
+import Header3 from "../Component/container/Header3"
 function BlogPage() {
   return (<>
-    <Header />
+    <Header3 />
     {"blog"}
     <Footer />
   </>)

@@ -1,4 +1,4 @@
-import Header from "../Component/container/Header"
+import Header1 from "../Component/container/Header1"
 import Footer from "../Component/container/Footer"
 import { Outlet } from "react-router-dom"
 import Main from "../Component/container/Main"
@@ -14,7 +14,7 @@ function HomePage() {
   }, [navigate])
   return (
     <>
-        <Header/>
+        <Header1/>
         <Main Child = {<Outlet />}/>
         <Footer/>
     </>

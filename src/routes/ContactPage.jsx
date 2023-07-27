@@ -1,9 +1,9 @@
 import Footer from "../Component/container/Footer"
-import Header from "../Component/container/Header"
+import Header4 from "../Component/container/Header4"
 function ContactPage() {
   return (<>
-    <Header />
-    {"contact"}
+    <Header4 />
+    {"contact jhdddddddddiwwwwwwwwwwwwwwwwwwwww"}
     <Footer />
   </>)
 }

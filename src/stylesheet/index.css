@@ -366,7 +366,7 @@ margin-left: 1rem;
   height:100vh;
   z-index: -1;
   background-size: 55vw 100vh;
-  filter: brightness(0.6);
+  /* filter: brightness(0.6);  */
 }
 .mostpop .box2{
   display: grid;
@@ -396,7 +396,7 @@ font-size: 1.2rem;
   background-size: 25vw 50vh;
   height:50vh;
   z-index: -1;
-  filter: brightness(0.6);
+  /* filter: brightness(0.6);  */
 }
 .mostpop .box2 .sec::before{
   content: "";
@@ -426,7 +426,160 @@ font-size: 1.2rem;
   background-size: 25vw 50vh;
   height:100vh;
   z-index: -1;
+  /* filter: brightness(0.6);  */
+}
+.shop{
+  display: grid;
+  grid-template-rows: repeat(3,auto);
+  row-gap: 1rem;
+  /* border:2px solid black;  */
+  margin-top: 9rem;
+  width:100vw;
+  height:206vh;
+}
+.shop .box1{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* column-gap: 1rem;  */
+  /* border:2px solid brown;    */
+}
+.shop .box1 .part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black;  */
+  color: white;
+}
+.util:hover{
+  transition: width 1s ease-in-out;
+  transform:scale(1.1);
+
+}
+.shop .box1 .part1::before{
+  content:"";
+  position:absolute;
+  background: url('https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2020/10/11/b0050a33-18a0-436c-b3a6-e05d2b303ebd1602367973649-1.jpg') no-repeat center;
+  width:50vw;
+  height:75vh;
+  background-size: 50vw 72.7vh;
+  z-index: -1;
+}
+.shop .box1 .part2{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  column-gap: 0.7rem;
+  row-gap: 0.7rem;
+  grid-template-rows: 50% 48%;
+  color: white;
+  margin-left: 0.9rem;
+   /* margin-bottom: 0.8rem;  */
+}
+.shopcard{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+   /* border: 2px solid black;      */
+  /* height:39vh;  */
+}
+.shop .box1 .part2 .first::before{
+  content:"";
+  position: absolute;
+  background: url('https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d2cc19ea-951e-484f-b7dd-48fcbad390c2/air-max-intrlk-shoes-RmBXBC.png') no-repeat center;
+  width: 23vw;
+    height: 38vh;
+    background-size: 25vw 37vh;
+  z-index: -1;
+}
+.shop .box1 .part2 .second::before{
+  content:"";
+  position: absolute;
+  background: url('https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2020/7/22/268d0569-a249-47b2-972d-ad1900cca9281595369748704-1.jpg') no-repeat center;
+  width:29vw;
+  height:38vh;
+  background-size: 24vw 37vh;
+  z-index: -1;
   filter: brightness(0.6);
 }
+.shop .box1 .part2 .third::before{
+  content:"";
+  position: absolute;
+  background: url('https://cdn.webshopapp.com/shops/305057/files/412239911/1652x2313x1/gant-corduroy-cap.jpg') no-repeat center;
+  width:23vw;
+  height:35vh;
+  background-size: 25vw 37vh;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+.shop .box1 .part2 .four::before{
+  content:"";
+  position: absolute;
+  background: url('https://sothebys-com.brightspotcdn.com/dims4/default/d7a6cef/2147483647/strip/false/crop/3744x3744+936+0/resize/900x900!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2Fb5%2Fac%2F0aa55a87454889edeb60bb74fdc7%2Fgettyimages-1345148262.jpg') no-repeat center;
+  width:24vw;
+  height:35vh;
+  background-size: 25vw 37vh;
+  z-index: -1;
+}
+.shop .box2{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  /* border:2px solid black;  */
+  column-gap: 0.7rem;
+  color:white;
+}
+.shop .box2 .first::before{
+  content:"";
+  position: absolute;
+  background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd4%2F7f%2Fd47fda994383575908c939a0c2075dd85770871e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]') no-repeat center;
+  width:51.5vw;
+  height:63vh;
+  z-index: -1;
+  background-size: 52vw 64vh;
+  filter: brightness(0.6);
+}
+.shop .box2 .second::before{
+  content:"";
+  position: absolute;
+  background: url('https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2021/6/14/162d284c-b621-4c9f-8fd2-b02a2b5a5bfe1623642634416-1.jpg') no-repeat center;
+  width:47vw;
+  height:63vh;
+  z-index: -1;
+  background-size: 52vw 64vh;
+}
+.shop .box3{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  column-gap: 0.7rem;
+  color:white;
+}
+.shop .box3 .first::before{
+  content:"";
+  position: absolute;
+  background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2f%2Ff5%2F2ff5abc8fee9ddc76f067716ed131ba28cd6b904.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]') no-repeat center;
+  width: 43vw;
+    height: 65vh;
+    background-size: 33vw 62vh;
+  z-index: -1;
+}
+.shop .box3 .second::before{
+  content:"";
+  position: absolute;
+  background: url('https://i.pinimg.com/736x/cd/d2/75/cdd2751242f92c39a1518f8167243f25.jpg') no-repeat center;
+  width: 43vw;
+  height: 65vh;
+  background-size: 33vw 62vh;
+  z-index: -1;
+  /* filter: brightness(0.6);  */
+}
+.shop .box3 .third::before{
+  content:"";
+  position: absolute;
+  background: url('https://lp2.hm.com/hmgoepprod?set=source[/58/7e/587e111ea87e8f5eaa539d1fb3128bab6e1d1b5d.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]') no-repeat center;
+  width: 43vw;
+  height: 65vh;
+  background-size: 33vw 62vh;
+  z-index: -1;
+  /* filter: brightness(0.6);  */
+}
+
 
 
