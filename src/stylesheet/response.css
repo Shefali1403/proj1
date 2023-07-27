@@ -1,129 +1,94 @@
-@media screen and (max-width:900px) and (min-width:630px) {
-    #navbar .nav .menu{
-        margin-top: 1rem;
-    }
-    #navbar .search input {
-        width: 13vw;
-        height: 5vh;
-        margin-left: 9rem;
-    }
-    #mainhead{
-        width: 78vw;
-        height: 93vh;
-    }
-    
-}
-@media screen and (min-width:520px) and (max-width:629px){
-    .part{
-        height:100vh;
-    }
-    .container{
-        width:107vw;
-        /* background-color: blue;  */
-    }
-    .cont::before{
-        width:113vw;
-        background-size: 116vw 80vh;
-    }
+@media screen and (max-width: 900px) and (min-width: 630px) {
     #navbar{
-        width:107vw;
+        height: 12vh;
     }
-    #navbar .logo h1{
-        margin-top: 2rem;
-    font-size: 1rem;
-    }
-    #navbar .nav .menu{
-        margin-top: 1rem;
-    }
-    #navbar .menu li{
-        margin:1.2rem 0.4rem;
-    }
-    #navbar .search input{
-        margin-left: 6rem;
-    }
-    #main{
-        width:107vw;
-    }
-    .card .content h4{
-        font-size: 1rem;
-       }
-    #mainhead{
-        width: 97vw;
-        height: 88vh;
-    }
-    .footmain{
-        width:107vw;
-    }
-    .footmain .content{
-        margin-left: 1.4rem;
-    }
-    .footmain .copy{
-        width:115vw;
-    }
-    
+  #navbar .search input {
+    width: 13vw;
+    height: 5vh;
+    margin-left: 9rem;
+  }
+  #mainhead {
+    width: 78vw;
+    height: 93vh;
+  }
 }
-@media screen and (min-width:300px) and (max-width:520px) {
-    .container{
-        width:111vw;
-        /* background-color: pink;  */
-    }
-    .cont{
-        width:120vw;
-    }
-    .part{
-        width:120vw;
-        height:100vh;
-    }
-    .part #navbar{
-        width:120vw;
-    }
-    #navbar .nav .menu{
-        margin-left: 1rem;
-        margin-top: 1rem;
-    }
-    #navbar .logo h1 {
-        margin-top: 2.4rem;
-        font-size: 1rem;
-    }
-    #navbar .menu li{
-        margin: 1.2rem 0rem;
+@media screen and (min-width: 520px) and (max-width: 630px) {
+  #navbar{
+    height: 12vh;
+  }
+  #navbar .logo h1 {
+    margin-top: 1.3rem;
+    font-size: 1rem;
+}
+#navbar .menu li{
+    margin: 1.2rem 0rem;
+}
+#mainhead{
+    width: 80vw;
+    height: 114vh;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 520px) {
+  .container {
+    width: 111vw;
+    /* background-color: pink;  */
+  }
+  .cont {
+    width: 120vw;
+  }
+  .part {
+    width: 120vw;
+    height: 100vh;
+  }
+  .part #navbar {
+    width: 120vw;
+  }
+  #navbar .nav .menu {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  #navbar .logo h1 {
+    margin-top: 2.4rem;
+    font-size: 1rem;
+  }
+  #navbar .menu li {
+    margin: 1.2rem 0rem;
     padding: 0.3rem 0.6rem;
     font-size: 0.9rem;
-    }
-    #navbar .search input {
-        width: 14vw;
-        height: 4vh;
-        margin-left: 6rem;
-    }
-    #main{
-        width:120vw;
-    }
-    .card .content h4{
-        font-size: 0.8rem;
-       }
-    #mainhead{
-        margin-left: 3rem;
-        width: 140vw;
+  }
+  #navbar .search input {
+    width: 14vw;
+    height: 4vh;
+    margin-left: 6rem;
+  }
+  #main {
+    width: 120vw;
+  }
+  .card .content h4 {
+    font-size: 0.8rem;
+  }
+  #mainhead {
+    margin-left: 3rem;
+    width: 140vw;
     height: 83vh;
-    }
-    .cont::before{
-        background-size: 149vw 80vh;
-        width:120vw;
-    }
-    .footmain{
-        width:120vw;
-    }
-    .footmain .content .contain h3{
-        font-size:0.7rem;
-    }
-    .footmain .content .contain .menu li{
-        font-size:0.7rem;
-    }
-    .footmain .content{
-        margin-left: 2rem;
-    }
-    .footmain .copy{
-        width:120vw;
-    }
-
+  }
+  .cont::before {
+    background-size: 149vw 80vh;
+    width: 120vw;
+  }
+  .footmain {
+    width: 120vw;
+  }
+  .footmain .content .contain h3 {
+    font-size: 0.7rem;
+  }
+  .footmain .content .contain .menu li {
+    font-size: 0.7rem;
+  }
+  .footmain .content {
+    margin-left: 2rem;
+  }
+  .footmain .copy {
+    width: 120vw;
+  }
 }

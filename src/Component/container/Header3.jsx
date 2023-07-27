@@ -4,7 +4,12 @@ const Header3=()=>{
     return(
         <>
         <Mainnav/>
-         <h1>hi</h1>
+        <div className="blog">
+            <div className="box">
+                <p>Blog</p>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, laborum.</h1>
+            </div>
+        </div>
         </>
     )
 }

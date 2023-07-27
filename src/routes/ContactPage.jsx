@@ -3,7 +3,6 @@ import Header4 from "../Component/container/Header4"
 function ContactPage() {
   return (<>
     <Header4 />
-    {"contact jhdddddddddiwwwwwwwwwwwwwwwwwwwww"}
     <Footer />
   </>)
 }
