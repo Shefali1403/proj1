@@ -1,392 +1,399 @@
-@media screen and (max-width: 900px) and (min-width: 630px) {
+@media screen and (min-width: 886px) {
   #navbar {
-    height: 11vh;
-    grid-template-columns: 8% 37% 33% auto;
-  }
-  #navbar .search input {
-    width: 13vw;
-    height: 5vh;
-    margin-left: 9rem;
-  }
-  #navbar .logo h1 {
-    margin-top: 3.2rem;
-    font-size: 1rem;
-  }
-  #navbar .menu li {
-    margin: 3.2rem 1rem;
-  }
-  #mainhead {
-    width: 78vw;
-    height: 93vh;
+    height: 8vh;
   }
 }
-@media screen and (min-width: 570px) and (max-width: 630px) {
-  .container {
-    width: 107vw;
-  }
+@media screen and (min-width: 700px) and (max-width: 885px) {
   #navbar {
-    grid-template-columns: 8% 37% 28% auto;
-    width: 107vw;
-  }
-  #navbar .logo h1 {
-    margin-top: 3rem;
-    font-size: 1rem;
+    height: 8vh;
   }
   #navbar .menu li {
-    margin: 3rem 0rem;
+    margin: 1.4rem 0.5rem;
+  }
+  #navbar .logo h1 {
+    margin-top: 1.6rem;
+    font-size: 1rem;
+  }
+  #navbar .search input {
+    height: 3vh;
+  }
+  #mainhead {
+    width: 70vw;
+    height: 72vh;
+  }
+  #mainhead h1 {
+    font-size: 2rem;
+    margin-right: 19rem;
+  }
+  #main {
+    height: 132vh;
+  }
+  #main .navig {
+    height: 10vh;
+  }
+  #main .navig li {
+    margin-top: 3rem;
+  }
+  .footmain {
+    margin-top: 3.9rem;
+  }
+  .footmain .content .sec .menu,
+  .footmain .content .third .menu {
+    margin-bottom: 2rem;
+  }
+  .footmain .content .extra .menu {
+    margin-bottom: 8rem;
+  }
+  .footmain .content .contain h3 {
+    font-size: 1rem;
+  }
+  .footmain .content .contain {
+    margin-top: 0rem;
+  }
+  .footmain .content .sec h3 {
+    margin-right: 2.9rem;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 669px) {
+  #navbar {
+    height: 7vh;
+    grid-template-columns: 8% 37% 31% auto;
+  }
+  #navbar .menu li {
+    margin: 1.3rem 0.2rem;
+  }
+  #navbar .logo h1 {
+    margin-top: 1.6rem;
+    font-size: 1rem;
   }
   #navbar .search input {
     margin-left: 5rem;
-  }
-  #navbar .icons {
-    column-gap: 0.5rem;
-  }
-  .cont {
-    width: 107vw;
-  }
-  .cont::before {
-    width: 107vw;
-    background-size: 107vw 100vh;
-  }
-  #main {
-    width: 107vw;
-  }
-  .footmain {
-    width: 107vw;
-  }
-  .footmain .copy {
-    width: 107vw;
+    height: 2.5vh;
   }
   #mainhead {
-    width: 80vw;
-    height: 94vh;
+    width: 92vw;
+    height: 69vh;
   }
-  .contain h3 {
-    font-size: 1rem;
+  #mainhead h1 {
+    font-size: 2rem;
+    margin-right: 18rem;
   }
   .footmain .content {
     margin-left: 1rem;
+    height: 52vh;
   }
-}
-@media screen and (min-width: 521px) and (max-width: 570px) {
-  .container {
-    width: 112vw;
+  .footmain .content .sec .menu,
+  .footmain .content .third .menu {
+    margin-bottom: 2rem;
   }
-  #navbar {
-    width: 112vw;
+  .footmain .content .extra .menu {
+    margin-bottom: 8rem;
   }
-  #navbar .logo h1 {
+  .footmain .content .contain h3 {
     font-size: 0.9rem;
-    margin-top: 2.4rem;
   }
-  #navbar .menu li {
-    margin: 2.3rem 0rem;
-    padding: 1rem 0.7rem;
+  .footmain .content .first h3 {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
   }
-  #navbar .search input {
-    margin-left: 5rem;
-  }
-  #navbar .icons {
-    column-gap: 0.5rem;
-  }
-  .cont {
-    width: 112vw;
-  }
-  .cont::before {
-    width: 112vw;
-    background-size: 112vw 100vh;
-  }
-  #mainhead {
-    width: 112vw;
-  }
-  #main {
-    width: 112vw;
-  }
-  .footmain {
-    width: 112vw;
+  .footmain .content .contain {
+    margin-top: 0rem;
   }
   .footmain .copy {
-    width: 112vw;
-  }
-  .contain h3 {
-    font-size: 0.9rem;
-  }
-  .footmain .content {
-    margin-left: 2.3rem;
+    height: 2vh;
   }
 }
-@media screen and (min-width: 455px) and (max-width: 520px) {
-  .container {
-    width: 115vw;
-  }
+@media screen and (min-width: 470px) and (max-width: 559px) {
   #navbar {
-    display: grid;
-    grid-template-columns: 8% 37% 25% auto;
-    width: 115vw;
+    height: 7vh;
+    grid-template-columns: 8% 35% 30% auto;
+  }
+  #navbar .menu li {
+    margin: 1.4rem 0rem;
   }
   #navbar .logo h1 {
+    margin-top: 1.6rem;
     font-size: 1rem;
-    margin-top: 2rem;
-  }
-  #navbar .menu li {
-    margin: 2rem 0rem;
   }
   #navbar .search input {
-    margin-left: 5rem;
+    margin-left: 6rem;
+    width: 10vw;
+    height: 2vh;
   }
   #navbar .icons {
-    column-gap: 0.5rem;
-  }
-  .cont {
-    width: 115vw;
-  }
-  .cont::before {
-    width: 115vw;
-    background-size: 115vw 100vh;
+    column-gap: 0.6rem;
   }
   #mainhead {
-    width: 115vw;
-    height: 100vh;
+    width: 100vw;
+    height: 62vh;
+  }
+  #mainhead p {
+    margin-right: 20rem;
+  }
+  #mainhead h1 {
+    font-size: 1.3rem;
+    margin-right: 18rem;
+  }
+  #mainhead .list {
+    margin-right: 18rem;
   }
   #main {
-    width: 115vw;
+    height: 72vh;
+  }
+  #main .categ {
+    height: 60vh;
+  }
+  #main .navig {
+    height: 10vh;
+  }
+  .card {
+    height: 20vh;
+  }
+  .card .first img {
+    height: 13vh;
+  }
+  .card .com img {
+    height: 13vh;
   }
   .footmain {
-    width: 115vw;
-  }
-  .footmain .copy {
-    width: 115vw;
-  }
-  .contain h3 {
-    font-size: 0.9rem;
+    margin-top: 0rem;
+    height: 85vh;
   }
   .footmain .content {
+    margin-left: 1rem;
+    height: 42vh;
+  }
+  .footmain .content .sec h3,
+  .footmain .content .third h3 {
+    margin-left: 2.5rem;
+  }
+  .footmain .content .sec .menu,
+  .footmain .content .third .menu {
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+  }
+  .footmain .content .extra .menu {
+    margin-bottom: 2.4rem;
     margin-left: 2rem;
   }
-}
-
-@media screen and (min-width: 430px) and (max-width: 454px) {
-  .container {
-    width: 115vw;
+  .footmain .content .contain h3 {
+    font-size: 0.7rem;
   }
-  #navbar {
-    grid-template-columns: 8% 37% 33% auto;
-    width: 115vw;
-  }
-  #navbar .logo h1 {
-    font-size: 0.9rem;
-    margin-top: 2.4rem;
-  }
-  #navbar .menu li {
-    margin: 2.3rem 0rem;
-    padding: 1rem 0.7rem;
-  }
-  #navbar .search input {
-    margin-left: 5rem;
-  }
-  #navbar .icons {
-    column-gap: 0.5rem;
-  }
-  .cont {
-    width: 115vw;
-  }
-  .cont::before {
-    width: 115vw;
-    background-size: 115vw 100vh;
-  }
-  #mainhead {
-    width: 115vw;
-    height: 100vh;
-  }
-  #main {
-    width: 115vw;
-  }
-  .footmain {
-    width: 115vw;
+  .footmain .content .first .menu {
+    margin-left: 2rem;
   }
   .footmain .copy {
-    width: 115vw;
-  }
-  .contain h3 {
-    font-size: 0.9rem;
-  }
-  .footmain .content {
-    margin-left: 2.3rem;
+    height: 2vh;
   }
 }
-@media screen and (min-width: 399px) and (max-width: 429px) {
-  .container {
-    width: 118vw;
-  }
+@media screen and (min-width: 399px) and (max-width: 469px) {
   #navbar {
-    width: 118vw;
-    grid-template-columns: 8% 37% 30% auto;
-  }
-  #navbar .logo h1 {
-    margin-top: 2.4rem;
-    font-size: 1rem;
+    height: 7vh;
+    grid-template-columns: 8% 37% 27% auto;
   }
   #navbar .menu li {
-    margin: 2.4rem 0rem;
-    padding: 0.3rem 0.5rem;
+    margin: 1.4rem 0rem;
+    padding: 0.3rem 0.6rem;
+  }
+  #navbar .logo h1 {
+    margin-top: 1.6rem;
+    font-size: 1rem;
   }
   #navbar .search input {
     margin-left: 5rem;
+    height: 2vh;
+    width: 12vw;
   }
   #navbar .icons {
-    column-gap: 0.5rem;
-  }
-  .cont {
-    width: 118vw;
-  }
-  .cont::before {
-    width: 118vw;
-    background-size: 118vw 100vh;
+    column-gap: 0.4rem;
   }
   #mainhead {
-    width: 118vw;
-    height: 100vh;
-  }
-  #main {
-    width: 109vw;
-  }
-  .footmain {
-    width: 118vw;
-  }
-  .footmain .copy {
-    width: 118vw;
-  }
-  .contain h3 {
-    font-size: 0.9rem;
-  }
-  .footmain .content {
-    margin-left: 2.3rem;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 398px) {
-  .container {
-    width: 125vw;
-  }
-  #navbar {
-    width: 125vw;
-    grid-template-columns: 8% 37% 30% auto;
-  }
-  #navbar .logo h1 {
-    margin-top: 2rem;
-    font-size: 1rem;
-  }
-  #navbar .menu li {
-    margin: 2rem 0rem;
-    padding: 0.3rem 0.7rem;
-  }
-  #navbar .search input {
-    margin-left: 5rem;
-  }
-  #navbar .icons {
-    column-gap: 0.5rem;
-  }
-  .cont {
-    width: 125vw;
-  }
-  .cont::before {
-    width: 125vw;
-    background-size: 125vw 100vh;
-  }
-  #mainhead {
-    width: 125vw;
-    height: 100vh;
+    width: 100vw;
+    height: 74vh;
   }
   #mainhead p {
-    margin-right: 17rem;
+    margin-right: 22rem;
+    font-size: 0.6rem;
   }
-  #main .navig ul {
+  #mainhead h1 {
+    font-size: 1.3rem;
+    margin-right: 18rem;
+  }
+  #mainhead .list {
+    margin-right: 18rem;
+  }
+  #main {
+    height: 72vh;
+  }
+  #main .categ {
+    height: 60vh;
+  }
+  #main .navig {
+    height: 10vh;
+  }
+  .card {
+    height: 20vh;
+    margin-left: 1rem;
+  }
+  .card .first img {
+    height: 13vh;
+  }
+  .card .com img {
+    height: 13vh;
+  }
+  .card .content h4 {
+    font-size: 0.8rem;
+  }
+  .card .content p {
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+  }
+  .footmain {
+    margin-top: 0rem;
+    height: 85vh;
+  }
+  .footmain .heading {
+    height: 8vh;
+  }
+  .footmain .content {
+    margin-left: 1rem;
+    height: 42vh;
+  }
+  .footmain .content .contain {
+    height: 31vh;
+  }
+  .footmain .content .sec h3,
+  .footmain .content .third h3 {
+    margin-left: 2.5rem;
+  }
+  .footmain .content .sec .menu,
+  .footmain .content .third .menu {
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+  }
+  .footmain .content .extra .menu {
+    margin-bottom: 2.4rem;
+    margin-left: 2rem;
+  }
+  .footmain .content .contain h3 {
+    font-size: 0.7rem;
+  }
+  .footmain .content .first .menu {
+    margin-left: 2rem;
+  }
+  .footmain .copy {
+    height: 2vh;
+  }
+}
+@media screen and (min-width: 349px) and (max-width: 398px) {
+  #navbar {
+    height: 7vh;
+    grid-template-columns: 10% 30% 30% auto;
+  }
+  #navbar .menu li {
+    margin: 1.2rem 0rem;
+    padding: 0.6rem 0.6rem;
+    font-size: 0.8rem;
+  }
+  #navbar .logo h1 {
+    margin-top: 1.6rem;
+    font-size: 0.7rem;
+  }
+  #navbar .search input {
     margin-left: 7rem;
-  }
-  #mainhead h1 {
-    font-size: 2rem;
-  }
-  #mainhead .list {
-    margin-right: 16rem;
-  }
-  #main {
-    width: 125vw;
-  }
-  .footmain {
-    width: 125vw;
-  }
-  .footmain .copy {
-    width: 125vw;
-  }
-  .contain h3 {
-    font-size: 0.7rem;
-    margin-right: 3rem;
-  }
-  .footmain .content {
-    margin-left: 4rem;
-  }
-  .footmain .content .contain .menu li {
-    font-size: 0.6rem;
-  }
-}
-@media screen and (min-width: 300px) and (max-width: 359px) {
-  .container {
-    width: 130vw;
-  }
-  #navbar {
-    width: 130vw;
-    grid-template-columns: 8% 37% 30% auto;
-  }
-  #navbar .logo h1 {
-    margin-top: 3rem;
-    font-size: 1rem;
-  }
-  #navbar .menu li {
-    margin: 3rem 0rem;
-    padding: 0.3rem 0.5rem;
-  }
-  #navbar .search input {
-    margin-left: 5rem;
+    width: 12vw;
+    height: 2vh;
   }
   #navbar .icons {
-    column-gap: 0.5rem;
+    column-gap: 0.1rem;
+    margin-left: 1.5rem;
   }
   .cont {
-    width: 124vw;
+    height: 60vh;
   }
   .cont::before {
-    width: 130vw;
-    background-size: 130vw 100vh;
+    height: 60vh;
+    background-size: 109vw 60vh;
   }
   #mainhead {
-    width: 130vw;
-    height: 100vh;
+    width: 100vw;
+    height: 44vh;
   }
   #mainhead p {
-    margin-right: 17rem;
+    margin-right: 15rem;
+    font-size: 0.6rem;
   }
   #mainhead h1 {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    margin-right: 12rem;
   }
   #mainhead .list {
-    margin-right: 16rem;
+    margin-right: 12rem;
   }
   #main {
-    width: 130vw;
+    height: 40vh;
+  }
+  #main .categ {
+    height: 31vh;
+  }
+  #main .navig {
+    height: 10vh;
+  }
+  .card {
+    height: 15vh;
+    margin-left: 1rem;
+    margin-top: 0rem;
+  }
+  .card .first img {
+    height: 9vh;
+  }
+  .card .com img {
+    height: 9vh;
+  }
+  .card .content h4 {
+    font-size: 0.6rem;
+  }
+  .card .content p {
+    margin-top: 0.4rem;
+    font-size: 0.5rem;
   }
   .footmain {
-    width: 130vw;
+    margin-top: 0rem;
+    height: 56vh;
   }
-  .footmain .copy {
-    width: 130vw;
-  }
-  .contain h3 {
-    font-size: 0.7rem;
-    margin-right: 3rem;
+  .footmain .heading {
+    height: 8vh;
   }
   .footmain .content {
-    margin-left: 4rem;
+    margin-left: 1rem;
+    height: 42vh;
+  }
+  .footmain .content .contain {
+    height: 7vh;
+  }
+  .footmain .content .sec h3,
+  .footmain .content .third h3 {
+    margin-left: 2.5rem;
+  }
+  .footmain .content .sec .menu,
+  .footmain .content .third .menu {
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+  }
+  .footmain .content .extra .menu {
+    margin-bottom: 2.4rem;
+    margin-left: 2rem;
+  }
+  .footmain .content .contain h3 {
+    font-size: 0.7rem;
+  }
+  .footmain .content .first .menu {
+    margin-left: 2rem;
   }
   .footmain .content .contain .menu li {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+  }
+  .footmain .copy {
+    height: 2vh;
   }
 }

@@ -1,6 +1,6 @@
 * {
-  margin: 0rem;
-  padding: 0rem;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 li a {
@@ -23,6 +23,7 @@ li a.active_class {
   position: relative;
   display: grid;
   grid-template-rows: repeat(3, auto);
+  overflow-x: hidden;
 }
 #navbar {
   display: grid;
@@ -75,7 +76,7 @@ li a.active_class {
 .cont {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 108vh;
   /* border:2px solid green;   */
 }
 .cont::before {
@@ -89,6 +90,7 @@ li a.active_class {
   width: 100vw;
   height: 100vh;
   z-index: -1;
+  margin-top: 4rem;
 }
 
 #mainhead {
@@ -661,7 +663,7 @@ li a.active_class {
 }
 .contact .boxes {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 46%;
   margin-top: 3rem;
 }
 .contact .box2 .part1 {
