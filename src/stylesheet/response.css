@@ -286,6 +286,9 @@
   }
 }
 @media screen and (min-width: 349px) and (max-width: 398px) {
+    .container{
+        /* background-color: red;  */
+    }
   #navbar {
     height: 7vh;
     grid-template-columns: 10% 30% 30% auto;
@@ -296,17 +299,17 @@
     font-size: 0.8rem;
   }
   #navbar .logo h1 {
-    margin-top: 1.6rem;
+    margin-top: 1.9rem;
     font-size: 0.7rem;
   }
   #navbar .search input {
-    margin-left: 7rem;
+    margin-left: 8rem;
     width: 12vw;
     height: 2vh;
   }
   #navbar .icons {
     column-gap: 0.1rem;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
   }
   .cont {
     height: 60vh;
@@ -317,24 +320,33 @@
   }
   #mainhead {
     width: 100vw;
-    height: 44vh;
+    height: 58vh;
   }
   #mainhead p {
-    margin-right: 15rem;
-    font-size: 0.6rem;
+    margin-right: 18rem;
+    font-size: 0.5rem;
   }
   #mainhead h1 {
-    font-size: 1.3rem;
-    margin-right: 12rem;
+    font-size: 1rem;
+    margin-right: 15rem;
   }
   #mainhead .list {
-    margin-right: 12rem;
+    margin-right: 16rem;
+  }
+  #mainhead .list li{
+    font-size: 0.6rem;
   }
   #main {
-    height: 40vh;
+    height: 66vh;
+  }
+  #main .navig ul{
+    margin-left: 1rem;
+  }
+  #main .navig ul li{
+    font-size: 0.6rem;
   }
   #main .categ {
-    height: 31vh;
+    height: 45vh;
   }
   #main .navig {
     height: 10vh;
@@ -351,7 +363,7 @@
     height: 9vh;
   }
   .card .content h4 {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   .card .content p {
     margin-top: 0.4rem;
@@ -362,14 +374,14 @@
     height: 56vh;
   }
   .footmain .heading {
-    height: 8vh;
+    height: 12vh;
   }
   .footmain .content {
-    margin-left: 1rem;
-    height: 42vh;
+    margin-left: 0.6rem;
+    height: 52vh;
   }
   .footmain .content .contain {
-    height: 7vh;
+    height: 18vh;
   }
   .footmain .content .sec h3,
   .footmain .content .third h3 {
@@ -377,23 +389,26 @@
   }
   .footmain .content .sec .menu,
   .footmain .content .third .menu {
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
     margin-left: 6rem;
   }
   .footmain .content .extra .menu {
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.0rem;
     margin-left: 2rem;
   }
   .footmain .content .contain h3 {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   .footmain .content .first .menu {
     margin-left: 2rem;
   }
   .footmain .content .contain .menu li {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .footmain .copy {
     height: 2vh;
+  }
+  .copy p{
+    font-size: 0.6rem;
   }
 }
