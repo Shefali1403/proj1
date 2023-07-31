@@ -3,10 +3,10 @@
     height: 8vh;
   }
   .contact {
-    height: 220vh;
+    height: 150vh;
   }
   .contact .box2 .part1 {
-    height: 52vh;
+    height: 80vh;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 885px) {
