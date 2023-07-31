@@ -371,12 +371,12 @@ li a.active_class {
   background-size: 55vw 100vh;
   /* filter: brightness(0.6);  */
 }
-.mostpop .box2 {
+.mostpop .mostpopcont {
   display: grid;
   grid-template-columns: repeat(2, auto);
   position: relative;
 }
-.mostpop .box2 .mostpopcomp {
+.mostpop .mostpopcont .mostpopcomp {
   width: 25vw;
   height: 50vh;
   display: flex;
@@ -384,13 +384,13 @@ li a.active_class {
   justify-content: center;
   align-items: center;
 }
-.mostpop .box2 .mostpopcomp p {
+.mostpop .mostpopcont .mostpopcomp p {
   font-size: 0.9rem;
 }
-.mostpop .box2 .mostpopcomp h3 {
+.mostpop .mostpopcont .mostpopcomp h3 {
   font-size: 1.2rem;
 }
-.mostpop .box2 .first::before {
+.mostpop .mostpopcont .first::before {
   content: "";
   position: absolute;
   background-color: white;
@@ -411,7 +411,7 @@ li a.active_class {
   z-index: -1;
   filter: brightness(0.6);
 }
-.mostpop .box2 .third::before {
+.mostpop .mostpopcont .third::before {
   content: "";
   position: absolute;
   background: url("https://imagescdn.planetfashion.in/img/app/product/8/814475-9720756.jpg?auto=format&w=494.40000000000003")
@@ -422,7 +422,7 @@ li a.active_class {
   z-index: -1;
   filter: brightness(0.6);
 }
-.mostpop .box2 .four::before {
+.mostpop .mostpopcont .four::before {
   content: "";
   position: absolute;
   background: url("https://www.jiomart.com/images/product/original/rv54rem9qj/zaaliqa-latest-design-women-sling-bag-cross-body-bag-product-images-rv54rem9qj-0-202209271637.jpg?im=Resize=(500,630)")
@@ -654,7 +654,7 @@ li a.active_class {
   margin-bottom: 7.4rem;
   margin-left: 2rem;
 }
-.contact .box2 {
+.contact .contactcont {
   display: flex;
   flex-direction: column;
 }

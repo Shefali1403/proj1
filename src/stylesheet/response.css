@@ -2,6 +2,12 @@
   #navbar {
     height: 8vh;
   }
+  .contact {
+    height: 220vh;
+  }
+  .contact .box2 .part1 {
+    height: 52vh;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 885px) {
   #navbar {
@@ -53,6 +59,45 @@
   .footmain .content .sec h3 {
     margin-right: 2.9rem;
   }
+  .newarr {
+    /* background-color: red;  */
+    height: 85vh;
+  }
+  .newarr .box {
+    height: 42vh;
+  }
+  .newarr .com::before {
+    height: 42vh;
+    background-size: 34vw 41vh;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .contact .box2 > h1 {
+    font-size: 3rem;
+  }
+  .contact .box2 .part1 form input {
+    padding: 0.3rem 0rem;
+    width: 20vw;
+  }
+  .contact .box2 .part1 {
+    height: 54vh;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 1rem;
+  }
+  .contact .box2 .part2 .icons {
+    margin-top: 2rem;
+  }
+  .contact .contactcont {
+    margin-bottom: 8rem;
+  }
 }
 @media screen and (min-width: 560px) and (max-width: 669px) {
   #navbar {
@@ -101,6 +146,97 @@
   }
   .footmain .copy {
     height: 2vh;
+  }
+  .newarr {
+    /* background-color: red;  */
+    height: 85vh;
+  }
+  .newarr .box {
+    height: 28vh;
+  }
+  .newarr .com::before {
+    height: 28vh;
+    background-size: 44vw 28vh;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .box h1 {
+    font-size: 1.4rem;
+  }
+  .newarr .box button {
+    padding: 0.6rem 0.9rem;
+  }
+  .mostpop {
+    height: 57vh;
+  }
+  .mostpop .box1 {
+    height: 45vh;
+  }
+  .mostpop .box1 p {
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  .mostpop .box1 h4 {
+    font-size: 1rem;
+    margin-bottom: 1.7rem;
+  }
+  .mostpop .box1:before {
+    height: 35vh;
+    width: 50vw;
+    background-size: 50vw 35vh;
+  }
+  .mostpop .box2 {
+    height: 45vh;
+  }
+  .mostpop .mostpopcont {
+    margin-top: 6.2rem;
+  }
+  .mostpop .box2 .mostpopcomp {
+    height: 17.6vh;
+  }
+  .mostpop .box2 .mostpopcomp p {
+    font-size: 1rem;
+  }
+  .mostpop .box2 .mostpopcomp h3 {
+    font-size: 0.6rem;
+  }
+  .mostpop .box2 .com::before {
+    height: 17.6vh;
+    width: 25vw;
+    background-size: 25vw 17.6vh;
+    /* background-color: red;  */
+  }
+  .contact .box2 > h1 {
+    font-size: 2rem;
+  }
+  .contact .box2 .part1 form input {
+    padding: 0.3rem 0rem;
+    width: 18vw;
+  }
+  .contact .box2 .part1 {
+    height: 50vh;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 1rem;
+  }
+  .contact .box2 .part2 .icons {
+    margin-top: 2rem;
+  }
+  .contact .contactcont {
+    margin-bottom: 5rem;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 1rem;
+  }
+  .contact .box2 .part2 p {
+    font-size: 0.7rem;
+  }
+  .contact .box2 .part1 form button {
+    padding: 0.6rem 1rem;
   }
 }
 @media screen and (min-width: 470px) and (max-width: 559px) {
@@ -185,15 +321,124 @@
   .footmain .copy {
     height: 2vh;
   }
+  .newarr {
+    /* background-color: red;  */
+    height: 85vh;
+  }
+  .newarr .box {
+    height: 26vh;
+  }
+  .newarr .com::before {
+    height: 26vh;
+    background-size: 38vw 26vh;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .box h1 {
+    font-size: 1.2rem;
+  }
+  .newarr .box button {
+    padding: 0.6rem 0.5rem;
+    width: 14vw;
+    height: 3vh;
+    font-size: 0.5rem;
+    text-align: center;
+  }
+  .mostpop {
+    height: 57vh;
+  }
+  .mostpop .box1 {
+    height: 36vh;
+  }
+  .mostpop .box1 p {
+    font-size: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  .mostpop .box1 h4 {
+    font-size: 0.6rem;
+    margin-bottom: 1.7rem;
+  }
+  .mostpop .box1:before {
+    height: 20vh;
+    width: 50vw;
+    background-size: 50vw 20vh;
+  }
+  .mostpop .box2 {
+    height: 36vh;
+  }
+  .mostpop .mostpopcont {
+    margin-top: 10.2rem;
+  }
+  .mostpop .box2 .mostpopcomp {
+    height: 10vh;
+  }
+  .mostpop .box2 .mostpopcomp p {
+    font-size: 0.8rem;
+  }
+  .mostpop .box2 .mostpopcomp h3 {
+    font-size: 0.5rem;
+  }
+  .mostpop .box2 .com::before {
+    height: 10vh;
+    width: 25vw;
+    background-size: 25vw 10vh;
+    /* background-color: red;    */
+  }
+  .blog .box {
+    width: 66vw;
+    height: 26vh;
+  }
+  .blog .box h1 {
+    font-size: 1.2rem;
+  }
+  .contact .box2 > h1 {
+    font-size: 2rem;
+  }
+  .contact .box2 .part1 form input {
+    padding: 0.3rem 0rem;
+    width: 15vw;
+  }
+  .contact .box1 img {
+    height: 54vh;
+    margin-bottom: 16.3rem;
+    margin-left: 0rem;
+  }
+  .contact .box2 .part1 {
+    height: 45vh;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 1rem;
+  }
+  .contact .box2 .part2 .icons {
+    margin-top: 2rem;
+    margin-right: 1.2rem;
+  }
+  .contact .contactcont {
+    margin-bottom: 5rem;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 1rem;
+  }
+  .contact .box2 .part2 p {
+    font-size: 0.7rem;
+  }
+  .contact .box2 .part1 form button {
+    padding: 0.6rem 1rem;
+  }
 }
-@media screen and (min-width: 399px) and (max-width: 469px) {
+@media screen and (min-width: 399px) and (max-width: 470px) {
   #navbar {
     height: 7vh;
     grid-template-columns: 8% 37% 27% auto;
   }
   #navbar .menu li {
-    margin: 1.4rem 0rem;
+    margin: 1.4rem 0.3rem;
     padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
   }
   #navbar .logo h1 {
     margin-top: 1.6rem;
@@ -227,6 +472,9 @@
   }
   #main .categ {
     height: 60vh;
+  }
+  #main .navig ul li {
+    font-size: 0.8rem;
   }
   #main .navig {
     height: 10vh;
@@ -284,6 +532,111 @@
   .footmain .copy {
     height: 2vh;
   }
+  .newarr {
+    /* background-color: red;  */
+    height: 85vh;
+  }
+  .newarr .box {
+    height: 23vh;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .com::before {
+    height: 23vh;
+    background-size: 32vw 23vh;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .box h1 {
+    font-size: 1.1rem;
+  }
+  .newarr .box button {
+    padding: 0.6rem 0.5rem;
+    width: 14vw;
+    height: 3vh;
+    font-size: 0.5rem;
+    text-align: center;
+  }
+  .mostpop {
+    height: 57vh;
+  }
+  .mostpop .box1 {
+    height: 36vh;
+  }
+  .mostpop .box1 p {
+    font-size: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  .mostpop .box1 h4 {
+    font-size: 0.6rem;
+    margin-bottom: 1.7rem;
+  }
+  .mostpop .box1:before {
+    height: 20vh;
+    width: 50vw;
+    background-size: 50vw 20vh;
+  }
+  .mostpop .box2 {
+    height: 36vh;
+  }
+  .mostpop .mostpopcont {
+    margin-top: 10.2rem;
+  }
+  .mostpop .box2 .mostpopcomp {
+    height: 10vh;
+  }
+  .mostpop .box2 .mostpopcomp p {
+    font-size: 0.7rem;
+  }
+  .mostpop .box2 .mostpopcomp h3 {
+    font-size: 0.6rem;
+  }
+  .mostpop .box2 .com::before {
+    height: 10vh;
+    width: 25vw;
+    background-size: 25vw 10vh;
+    /* background-color: red;  */
+  }
+  .blog .box {
+    width: 70vw;
+    height: 19vh;
+  }
+  .blog .box h1 {
+    font-size: 1rem;
+  }
+  .contact .box2 > h1 {
+    font-size: 2rem;
+  }
+  .contact .box2 .part1 form input {
+    padding: 0.3rem 0rem;
+    width: 15vw;
+  }
+  .contact .box2 .part1 {
+    height: 45vh;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 1rem;
+  }
+  .contact .box2 .part2 .icons {
+    margin-top: 2rem;
+    margin-right: 1.2rem;
+  }
+  .contact .contactcont {
+    margin-bottom: 5rem;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 0.7rem;
+  }
+  .contact .box2 .part2 p {
+    font-size: 0.5rem;
+  }
+  .contact .box2 .part1 form button {
+    padding: 0.6rem 0rem;
+    font-size: 0.4rem;
+    width: 10vw;
+  }
 }
 @media screen and (min-width: 349px) and (max-width: 398px) {
   #navbar {
@@ -291,21 +644,21 @@
     grid-template-columns: 10% 30% 30% auto;
   }
   #navbar .menu li {
-    margin: 1.2rem 0rem;
+    margin: 1.3rem 0rem;
     padding: 0.6rem 0.6rem;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   #navbar .logo h1 {
     margin-top: 1.9rem;
     font-size: 0.7rem;
   }
   #navbar .search input {
-    margin-left: 8rem;
-    width: 12vw;
-    height: 2vh;
+    margin-left: 5rem;
+    width: 14vw;
+    height: 3vh;
   }
   #navbar .icons {
-    column-gap: 0.1rem;
+    column-gap: 0.4rem;
     margin-left: 2rem;
   }
   .cont {
@@ -330,16 +683,16 @@
   #mainhead .list {
     margin-right: 16rem;
   }
-  #mainhead .list li{
+  #mainhead .list li {
     font-size: 0.6rem;
   }
   #main {
     height: 66vh;
   }
-  #main .navig ul{
+  #main .navig ul {
     margin-left: 1rem;
   }
-  #main .navig ul li{
+  #main .navig ul li {
     font-size: 0.6rem;
   }
   #main .categ {
@@ -390,7 +743,7 @@
     margin-left: 6rem;
   }
   .footmain .content .extra .menu {
-    margin-bottom: 1.0rem;
+    margin-bottom: 1rem;
     margin-left: 2rem;
   }
   .footmain .content .contain h3 {
@@ -405,7 +758,185 @@
   .footmain .copy {
     height: 2vh;
   }
-  .copy p{
+  .copy p {
     font-size: 0.6rem;
+  }
+  .newarr {
+    /* background-color: red;  */
+    height: 85vh;
+  }
+  .newarr .box {
+    height: 20vh;
+  }
+  .newarr .com::before {
+    height: 20vh;
+    background-size: 34vw 20vh;
+  }
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+
+  .newarr .box button {
+    padding: 0.6rem 1rem;
+  }
+  .newarr .box h1 {
+    font-size: 0.8rem;
+  }
+  .newarr .box button {
+    padding: 0.4rem 0.5rem;
+    width: 12vw;
+    height: 2vh;
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.4rem;
+  }
+  .mostpop {
+    height: 57vh;
+  }
+  .mostpop .box1 {
+    height: 36vh;
+  }
+  .mostpop .box1 p {
+    font-size: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  .mostpop .box1 h4 {
+    font-size: 0.6rem;
+    margin-bottom: 1.7rem;
+  }
+  .mostpop .box1:before {
+    height: 20vh;
+    width: 50vw;
+    background-size: 50vw 20vh;
+  }
+  .mostpop .box2 {
+    height: 36vh;
+  }
+  .mostpop .mostpopcont {
+    margin-top: 7.8rem;
+  }
+  .mostpop .box2 .mostpopcomp {
+    height: 10vh;
+  }
+  .mostpop .box2 .mostpopcomp p {
+    font-size: 0.2rem;
+  }
+  .mostpop .box2 .mostpopcomp h3 {
+    font-size: 0.3rem;
+  }
+  .mostpop .box2 .com::before {
+    height: 10vh;
+    width: 25vw;
+    background-size: 25vw 10vh;
+    /* background-color: red;  */
+  }
+  .blog .box {
+    width: 70vw;
+    height: 20vh;
+  }
+  .blog .box h1 {
+    font-size: 0.9rem;
+  }
+  .contact {
+    height: 80vh;
+  }
+  .contact .box2 > h1 {
+    font-size: 1.5rem;
+  }
+  .contact .box2 .part1 form input {
+    padding: 0.3rem 0rem;
+    width: 15vw;
+  }
+  .contact .box1 img {
+    height: 46vh;
+    margin-bottom: 25.4rem;
+    margin-left: 0rem;
+  }
+  .contact .box2 .part1 {
+    height: 46vh;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .contact .box2 .part2 p {
+    margin-left: 1rem;
+  }
+  .contact .box2 .part1 form p {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+  }
+  .contact .box2 .part2 .icons {
+    margin-top: 2rem;
+    margin-right: 1.2rem;
+    column-gap: 0.3rem;
+  }
+  .contact .contactcont {
+    margin-bottom: 5rem;
+  }
+  .contact .box2 .part2 h1 {
+    font-size: 0.7rem;
+  }
+  .contact .box2 .part2 p {
+    font-size: 0.5rem;
+  }
+  .contact .box2 .part1 form button {
+    padding: 0.6rem 0rem;
+    width: 10vw;
+    font-size: 0.4rem;
+    width: 10vw;
+  }
+  .shop {
+    height: 120vh;
+    row-gap: 0rem;
+  }
+  .shop .box1 .part1 {
+    height: 35vh;
+  }
+  .shop .box2 {
+    height: 20vh;
+    margin-right: 1.8rem;
+    column-gap: 0.7rem;
+  }
+  .shop .box3 {
+    height: 35vh;
+  }
+  .shop .box2 h3 {
+    font-size: 1rem;
+  }
+  .shop .box3 h3 {
+    font-size: 1rem;
+  }
+  .shop .box3 .shopcard {
+    height: 25vh;
+  }
+  .shop .box1 .part2 {
+    height: 35vh;
+    column-gap: 0rem;
+    row-gap: 0rem;
+  }
+  .shop .box1 .part1::before {
+    height: 37vh;
+    background-size: 50vw 37vh;
+  }
+  .shop .box1 .part2 .shopcard::before {
+    height: 19.6vh;
+    width: 25vw;
+    background-size: 24vw 19.6vh;
+  }
+  .shop .box1 h3 {
+    font-size: 1rem;
+  }
+  .shop .box2 .shopcard::before {
+    height: 30vh;
+    width: 45vw;
+    background-size: 45vw 30vh;
+  }
+  .shop .box3 {
+    margin-bottom: 4rem;
+  }
+  .shop .box3 .shopcard::before {
+    height: 25vh;
+    background-size: 30vw 25vh;
   }
 }

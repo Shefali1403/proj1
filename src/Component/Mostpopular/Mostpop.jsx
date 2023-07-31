@@ -14,16 +14,18 @@ const Mostpop = () => {
           </h4>
         </div>
         <div className="box2">
-          {Mostpopdata.map((item) => {
+          <div className="mostpopcont">
+            {Mostpopdata.map((item) => {
             return (
               <Mostpopcomp
-                key={item.id}
-                className={item.className}
-                content={item.content}
-                title={item.title}
+              key={item.id}
+              className={item.className}
+              content={item.content}
+              title={item.title}
               />
-            );
-          })}
+              );
+            })}
+            </div>
         </div>
       </div>
     </h1>

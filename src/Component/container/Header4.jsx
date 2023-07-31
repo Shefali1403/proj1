@@ -32,6 +32,8 @@ const Header4 = () => {
               </form>
             </div>
             <div className="part2">
+              <div className="contactcont">
+
               <h1>Contact in</h1>
               <p>suprofashion@gmail.com</p>
               <div className="icons">
@@ -40,6 +42,7 @@ const Header4 = () => {
                 <i class="fa-brands fa-linkedin ico"></i>
               </div>
             </div>
+              </div>
           </div>
         </div>
       </div>
